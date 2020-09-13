@@ -1,14 +1,13 @@
 html,
-body {
-  height: 100%;
-}
 
 body {
   font-family: sans-serif;
   height: 100%;
+  background-size: cover;
+  position: relative;
 }
 
-button {
+botton {
   outline: none;
   border: none;
 }
@@ -24,9 +23,10 @@ h1 {
 header {
   background-image: url(img/sakura.jpg);
   height: 450px;
-  width: 1000px;
+  width: 100%;
   padding-top: 150px;
   background-repeat: no-repeat;
+  background-size: cover;
   margin:0 auto;
 }
 
@@ -56,6 +56,11 @@ nav a:hover {
   color: #ffcc11;
 }
 
+.wrapper {
+    width: 640px;
+    margin: 0 auto;
+}
+
 .information {
   background-color: #ffffee;
   color: #FF6699;
@@ -83,6 +88,7 @@ nav a:hover {
   padding: 20px;
   border-radius: 30px;
   height: 300px;
+  width: 960px;
 }
 
 .information img {
@@ -109,6 +115,14 @@ nav a:hover {
     color: #3b5998;
 }
 
+#main{
+    width: 608th;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 16px;
+    float: left;
+}
+
 #sidebar{
     float: left;
     width: 280px;
@@ -129,10 +143,12 @@ nav a:hover {
     font-size: 16px;
 }
 
-.movie {
+#movie {
   padding: 30px;
   background-color:#DEB887;
   height: 100px;
+  float: left;
+  overflow: hidden;
 }
 
 .movie h2 {
@@ -167,7 +183,7 @@ nav a:hover {
 }
 
 .movie div{
-    background-color:#DEB887
+  background-color:#DEB887;
 }
 
 .big {
@@ -201,7 +217,11 @@ nav a:hover {
 
 .favors {
   padding: 30px;
-  
+}
+
+#favors{
+    float:left;
+    overflow: hidden;
 }
 
 .favors h2 {
@@ -213,7 +233,7 @@ nav a:hover {
 .favors table {
   background-color: #ffffdd;
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
   margin: 50px;
 }
 
@@ -227,6 +247,12 @@ nav a:hover {
   padding: 10px;
   background-color: #ff6699;
   text-align: left;
+}
+
+.products {
+  margin-left: 15px;
+  float: left;
+  overflow: hidden
 }
 
 .products h2{
