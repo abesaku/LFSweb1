@@ -1,0 +1,245 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+h1 {
+  color: #FF9999;
+  font-size: 90px;
+  font-family: 'Cherry Swash', cursive;
+  text-align: center;
+  height: 2000px;
+}
+
+header {
+  background-image: url(img/sakura.jpg);
+  height: 450px;
+  width: 1000px;
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  margin:0 auto;
+}
+
+nav {
+  background-color: #663300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffcc11;
+}
+
+.information {
+  background-color: #ffffee;
+  color: #FF6699;
+  padding: 30px;
+}
+
+.information p{
+  background-color: #ffffff;
+  color: #FF6699;
+  padding: 30px;
+}
+
+.title {
+  font-size: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  padding-left: 15px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.information div {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+.information img {
+  float: left;
+}
+
+.information li{
+    list-style: none;
+}
+.information a{
+  text-decoration: none;
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px 32px;
+  background: #3b5998;
+  color: #f9f9f9;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.information a:hover {
+    background: #f9f9f9;
+    color: #3b5998;
+}
+
+#sidebar{
+    float: left;
+    width: 280px;
+    margin: 0px 12px;
+    padding: 8px;
+}
+
+#sidebar img{
+    margin-bottom: 16px;
+}
+
+#sidebar h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar p{
+    font-size: 16px;
+}
+
+.movie {
+  padding: 30px;
+  background-color:#DEB887;
+  height: 100px;
+}
+
+.movie h2 {
+  color: #ffffff;
+  border-color: #FF6699;
+}
+
+.movie h3 {
+  color: #FF6699;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+}
+
+.movie p {
+  color: #ffffff;
+  clear: left;
+}
+
+.movie a{
+  text-decoration: none;
+  color: #FF6699;
+  border: solid 1px #ff6699;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.movie a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #FF6699
+}
+
+.movie div{
+    background-color:#DEB887
+}
+
+.big {
+  background-color: #ffffff;
+  width: 410px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  float: left;
+  transform: rotate(-5deg);
+}
+
+.small1 {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  float: left;
+}
+
+.small2 {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  float: left;
+}
+
+
+.favors {
+  padding: 30px;
+  
+}
+
+.favors h2 {
+  color: #ffcccc;
+  border-color: #FF6699;
+  float: left;
+}
+
+.favors table {
+  background-color: #ffffdd;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 50px;
+}
+
+.favors td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.favors th {
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: #ff6699;
+  text-align: left;
+}
+
+.products h2{
+  color: #FFCCCC;
+  border-color: #FF6699;
+}
+
+.products a{
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #663300;
+  color: #ffffff;
+}
