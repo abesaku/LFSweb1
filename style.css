@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 #main{
-    width: 608th;
+    width: 65%;
     margin: 0 auto;
     overflow: hidden;
     padding: 16px;
@@ -126,13 +126,14 @@ nav a:hover {
 #sidebar{
     float: left;
     overflow: hidden;
-    width: 350px;
+    width: 30%;
     margin: 0px 12px;
     padding: 8px;
 }
 
 #sidebar img{
-    margin-bottom: 16px;
+    width: 200px;
+    margin: 30px;
 }
 
 #sidebar h3{
