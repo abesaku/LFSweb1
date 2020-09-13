@@ -65,6 +65,7 @@ nav a:hover {
   background-color: #ffffee;
   color: #FF6699;
   padding: 30px;
+  overflow: hidden;
 }
 
 .information p{
@@ -87,7 +88,6 @@ nav a:hover {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 30px;
-  height: 300px;
   width: 960px;
 }
 
@@ -125,7 +125,8 @@ nav a:hover {
 
 #sidebar{
     float: left;
-    width: 280px;
+    overflow: hidden;
+    width: 350px;
     margin: 0px 12px;
     padding: 8px;
 }
@@ -143,11 +144,9 @@ nav a:hover {
     font-size: 16px;
 }
 
-#movie {
+.movie {
   padding: 30px;
   background-color:#DEB887;
-  height: 100px;
-  float: left;
   overflow: hidden;
 }
 
@@ -217,17 +216,12 @@ nav a:hover {
 
 .favors {
   padding: 30px;
-}
-
-#favors{
-    float:left;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .favors h2 {
   color: #ffcccc;
   border-color: #FF6699;
-  float: left;
 }
 
 .favors table {
@@ -250,9 +244,7 @@ nav a:hover {
 }
 
 .products {
-  margin-left: 15px;
-  float: left;
-  overflow: hidden
+  padding: 30px;
 }
 
 .products h2{
