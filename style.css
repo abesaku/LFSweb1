@@ -267,8 +267,9 @@ color: #f69;
 .favors table {
   background-color: #ffffdd;
   border-collapse: collapse;
-  width: 50%;
+  width: 40%;
   margin: 50px;
+  float: left;
 }
 
 .favors td {
@@ -301,8 +302,10 @@ color: #f69;
   background-color: #DEB887;
   color: #fff;
   border-radius: 25px;
-  margin: 30px 0px;
+  margin: 30px 30px 30px 0px;
   width: 660px;
+  height: auto;
+  overflow: hidden;
 }
 
 .products div{
@@ -313,6 +316,13 @@ color: #f69;
   margin: 5px 30px;
 }
 
+#jaga{
+  float: left;
+}
+
+#yakusoku{
+  float: left;
+}
 
 footer {
   text-align: center;
