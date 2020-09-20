@@ -62,15 +62,15 @@ nav a:hover {
 }
 
 .information {
-  background-color: #ffffee;
+  background-color: #ffffff;
   color: #FF6699;
   padding: 30px;
   overflow: hidden;
 }
 
 .information p{
-  background-color: #ffffff;
-  color: #FF6699;
+  background-color: #DEB887;
+  color: #ffffff;
   padding: 30px;
 }
 
@@ -99,60 +99,96 @@ nav a:hover {
 .information li{
     list-style: none;
 }
-.information a{
-  text-decoration: none;
-  font-size: 16px;
-  padding: 8px 32px;
-  background: #3b5998;
-  color: #f9f9f9;
-  border: 1px solid #3b5998;
-  border-radius: 5px;
-  transition: 0.5s;
-}
-
-.information a:hover {
-    background: #f9f9f9;
-    color: #3b5998;
-}
 
 #main{
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     overflow: hidden;
     padding: 16px;
     float: left;
+    background-color: #DEB887;
 }
 
 #sidebar{
     float: left;
     overflow: hidden;
-    width: 30%;
+    width: 35%;
     margin: 0px 12px;
     padding: 8px;
+    background-color: #DEB887;
 }
 
 #sidebar img{
-    width: 200px;
+    width: 150px;
     margin: 30px;
 }
 
 #sidebar h3{
     font-size: 20px;
     margin-bottom: 8px;
+    margin-left: 30px;
+    color: #ffffff;
 }
 
 #sidebar p{
     font-size: 16px;
 }
 
+#sidebar2{
+    float: left;
+    overflow: hidden;
+    width: 35%;
+    margin: 20px 10px;
+    padding: 20px 0px;
+    background-color: #DEB887;
+}
+
+#FB {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 32px;
+  margin: 20px;
+  background: #3b5998;
+  color: #f9f9f9;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  //transition: 0.5s;
+}
+
+//.information a:hover {
+    background: #f9f9f9;
+    color: #3b5998;
+}
+
+#insta {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 32px;
+  margin: 20px;
+  background: linear-gradient(#9933cc, #ffcc33);
+  color: #f9f9f9;
+  border-radius: 5px;
+  //transition: 0.5s;
+}
+
+#filmarks{
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 32px;
+  margin: 20px;
+  background: #000;
+  color: #ff0;
+  border-radius: 5px;
+}
+
 .movie {
   padding: 30px;
-  background-color:#DEB887;
+  //background-color:#DEB887;
   overflow: hidden;
 }
 
 .movie h2 {
-  color: #ffffff;
+  color: #FF6699;
   border-color: #FF6699;
 }
 
