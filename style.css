@@ -13,7 +13,7 @@ botton {
 }
 
 h1 {
-  color: #FF9999;
+  color: #FF6699;
   font-size: 90px;
   font-family: 'Cherry Swash', cursive;
   text-align: center;
@@ -31,7 +31,7 @@ header {
 }
 
 nav {
-  background-color: #663300;
+  background-color: #DEB887;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -53,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffcc11;
+  color: #ff6699;
 }
 
 .wrapper {
@@ -93,6 +93,7 @@ nav a:hover {
 
 .information img {
   float: left;
+  width: 300px;
 }
 
 .information li{
@@ -100,7 +101,6 @@ nav a:hover {
 }
 .information a{
   text-decoration: none;
-  margin-top: 16px;
   font-size: 16px;
   padding: 8px 32px;
   background: #3b5998;
