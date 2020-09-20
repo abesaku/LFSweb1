@@ -305,6 +305,10 @@ color: #f69;
   width: 660px;
 }
 
+.products div{
+  font-size: 20px;
+}
+
 .product p{
   margin: 5px 30px;
 }
